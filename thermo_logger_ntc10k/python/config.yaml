@@ -1,0 +1,8 @@
+camera_index: 0
+serial_port: "COM5"   # Linux: "/dev/ttyUSB0" or "/dev/ttyACM0"
+baud: 115200
+roi: [0.5, 0.5, 0.25, 0.25]   # center ROI (x,y,w,h) as fractions of full frame
+save_dir: "../results/runs"
+duration_s: 300
+save_frames: true
+intensity_change_thresh: 12.0
